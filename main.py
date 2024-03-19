@@ -45,7 +45,7 @@ def main():
 
     if st.button('Predict Accident Level'):
         # Preprocess input text
-        padded_input = preprocess_test_data([input_text], tokenizer)
+        
         processed_input = preprocess_text(input_text)
         tokenized_input = tokenizer.texts_to_sequences([processed_input])
         padded_input = pad_sequences(tokenized_input, maxlen=MAX_LENGTH)
