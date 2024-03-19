@@ -9,7 +9,7 @@ import tensorflow as tf
 from tensorflow.keras.preprocessing.text import Tokenizer
 from tensorflow.keras.models import load_model
 from tensorflow.keras.preprocessing.sequence import pad_sequences
-from PAL import preprocess_test_data, predict_accident_level
+#from PAL import preprocess_test_data, predict_accident_level
 import numpy as np 
 
 # Load the pre-trained model
